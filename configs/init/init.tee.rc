@@ -33,12 +33,9 @@ start teelogcat
 on property:persist.sys.huawei.debug.on=0
 stop teelogcat
 
-# set sec_storage_data can be access by teecd to store fingerprint infos
 on post-fs-data
-    mkdir /data/sec_storage_data 0700 system system
-    restorecon /data/sec_storage_data
-    mkdir /data/sec_storage_data_users 0700 system system
-    restorecon /data/sec_storage_data_users
+    # TEE
     mkdir /data/vendor/log/sec_storage_data 0775 system system
     mkdir /data/vendor/log/sec_storage_data/log 0755 system system
-    start teecd
+    
+
