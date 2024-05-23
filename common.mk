@@ -190,10 +190,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light-service.hisi
 
-
-# Hisi
+# Hisi + logging
 PRODUCT_PACKAGES += \
     hisi_init \
+    libchrlog \
+    libhwlog \
     libxcollie
 
 # Vibrator
