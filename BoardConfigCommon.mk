@@ -131,7 +131,7 @@ VENDOR_SECURITY_PATCH := 2020-07-01
 
 # SEPolicy
 include device/hisi/sepolicy/SEPolicy.mk
-BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+#BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
