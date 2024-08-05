@@ -34,13 +34,13 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@4.0-impl \
+    android.hardware.audio@4.0-impl-hisi \
     android.hardware.audio.effect@4.0-impl \
     android.hardware.audio.service.hisi \
     android.hardware.bluetooth.audio@2.1-impl
 
 PRODUCT_PACKAGES += \
-    audio.primary.hisi_wrapper \
+    audio.primary.hi6250 \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default
@@ -48,6 +48,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libaudiopreprocessing \
     libtinycompress \
+    libaudioroute \
+    libtinyalsa \
     libalsautils
 
 
