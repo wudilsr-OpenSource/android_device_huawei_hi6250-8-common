@@ -175,12 +175,10 @@ PRODUCT_COPY_FILES += \
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-service \
-    android.hardware.keymaster@3.0-impl \
-    libkeymaster_portable \
-    libkeymaster3device
-    
-# KeyStore wifi
+    libkeymaster_portable
+
 PRODUCT_PACKAGES += \
+    libkeymaster3device.vendor \
     libkeystore-engine-wifi-hidl \
     libkeystore-wifi-hidl
 

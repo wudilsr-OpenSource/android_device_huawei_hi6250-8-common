@@ -955,16 +955,6 @@ vendor/lib64/libpf_oneimage_hisi.so
 vendor/lib64/libpf_rotate_hisi.so
 vendor/lib64/vendor.huawei.hardware.modemlogcat@1.0.so
 
-# Connectivity Configs
-vendor/etc/modemConfig/VIA/basic_name
-vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
-vendor/etc/modemConfig/balong/FieldTest.cfg
-vendor/etc/modemConfig/balong/basic_name
-vendor/etc/modemConfig/hids_ue_msg.cfg
-vendor/etc/modemConfig/viacbp82d_log.bcfg
-vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
-vendor/etc/factory_modem.cfg
-
 # Device Configs
 vendor/etc/cfg_berlin_al10_hisi.ini
 vendor/etc/cfg_berlin_al20_hisi.ini
@@ -1296,6 +1286,19 @@ vendor/etc/ikedconfig/vals.conf
 # Keymaster
 vendor/lib/hw/keystore.hi6250.so
 vendor/lib64/hw/keystore.hi6250.so
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib/hw/android.hardware.keymaster@3.0-impl-hisi.so
+vendor/lib64/hw/keystore.hi6250.so
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:vendor/lib64/hw/android.hardware.keymaster@3.0-impl-hisi.so
+
+# Modem
+vendor/etc/modemConfig/VIA/basic_name
+vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
+vendor/etc/modemConfig/balong/FieldTest.cfg
+vendor/etc/modemConfig/balong/basic_name
+vendor/etc/modemConfig/hids_ue_msg.cfg
+vendor/etc/modemConfig/viacbp82d_log.bcfg
+vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
+vendor/etc/factory_modem.cfg
 
 # Media
 vendor/etc/topazhp.cfg
