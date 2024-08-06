@@ -160,7 +160,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init/init.hisi.usb.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.hisi.usb.rc \
     $(LOCAL_PATH)/configs/init/init.override.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.override.rc \
     $(LOCAL_PATH)/configs/init/init.platform.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.platform.rc \
-    $(LOCAL_PATH)/configs/init/init.recovery.hi6250.rc:$(TARGET_COPY_OUT_VENDOR)/root/init.recovery.hi6250.rc \
+    $(LOCAL_PATH)/configs/init/init.recovery.hi6250.rc:$(TARGET_RECOVERY_OUT)/root/init.recovery.hi6250.rc \
     $(LOCAL_PATH)/configs/init/init.tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.tee.rc \
     $(LOCAL_PATH)/configs/init/ueventd.hi6250.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
