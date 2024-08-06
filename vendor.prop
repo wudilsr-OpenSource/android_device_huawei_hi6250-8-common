@@ -38,9 +38,6 @@ ro.hardware.gatekeeper=hi6250
 # Keystore
 # ro.hardware.keystore=hi6250
 
-# Fastbootd
-ro.fastbootd.available=false
-
 # CPU
 persist.sys.cpuset.enable=1
 persist.sys.cpuset.subswitch=0
@@ -59,7 +56,6 @@ persist.texture_cache_opt=1
 persist.smart_pool=1
 persist.touch_vsync_opt=1
 persist.touch_move_opt=1
-
 
 persist.partial_update_support=1
 persist.rog_feature=1
@@ -131,6 +127,7 @@ ro.vendor.tui.service=true
 # USB
 persist.media.usbvoice.enable=true
 persist.media.usbvoice.name=USB-Audio - HUAWEI GLASS
+
 # A-GPS
 ro.hardware.hisupl=hi1102
 
