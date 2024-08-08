@@ -201,6 +201,9 @@ on init
     chmod 0644 /dev/blkio/key-background/tasks
     chmod 0644 /dev/blkio/top-app/tasks
 
+    # Mount cgroup mount point for cpu accounting
+    mount cgroup none /acct cpuacct
+
     # sets up initial cpusets for ActivityManager
     mkdir /dev/cpuset
     mount cgroup none /dev/cpuset cpuset,cpuset_noprefix

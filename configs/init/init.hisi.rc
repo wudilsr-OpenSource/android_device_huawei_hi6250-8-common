@@ -57,7 +57,7 @@ on early-boot
     chmod 660 /dev/appvcomTLLOG
     chmod 660 /dev/appvcomERRLOG
     chmod 660 /dev/appvcomLOG
-   chmod 660 /dev/appvcomLOG1
+    chmod 660 /dev/appvcomLOG1
 
     chmod 660 /dev/appvcom28
     chmod 660 /dev/appvcom29
