@@ -439,7 +439,10 @@ on boot
 
     chmod 755 /system/bin/busybox
 
-
+    # Access permission for input_suspend
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+    
 	#sensorhub
 	chown system system /dev/sensorhub
 	chmod 0664 /dev/sensorhub
