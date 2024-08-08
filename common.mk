@@ -101,13 +101,12 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service
-#    android.hardware.biometrics.fingerprint@2.1.vendor
+#    android.hardware.biometrics.fingerprint@2.1-service
+    android.hardware.biometrics.fingerprint@2.1.vendor
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0-impl \
-    android.hardware.gatekeeper@1.0-service
+     android.hardware.gatekeeper@1.0-service.software
 
 # Graphics
 PRODUCT_PACKAGES += \
@@ -164,16 +163,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init/init.tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.tee.rc \
     $(LOCAL_PATH)/configs/init/ueventd.hi6250.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc
 
-
 # Fstab
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/init/fstab.hi6250:$(TARGET_COPY_OUT_RAMDISK)/fstab.hi6250 \
     $(LOCAL_PATH)/configs/init/fstab.hi6250:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.hi6250 \
     $(LOCAL_PATH)/configs/init/fstab.modem:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.modem
 
-
 # Keymaster
 PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
 
 PRODUCT_PACKAGES += \

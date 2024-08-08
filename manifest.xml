@@ -249,16 +249,6 @@
             <name>IFmControl</name>
             <instance>fm</instance>
         </interface>
-    </hal>        
-    <hal format="hidl">
-        <name>android.hardware.gatekeeper</name>
-        <transport>hwbinder</transport>
-        <impl level="generic"></impl>
-        <version>1.0</version>
-        <interface>
-            <name>IGatekeeper</name>
-            <instance>default</instance>
-        </interface>
     </hal>
     <hal format="hidl">
         <name>vendor.huawei.hardware.gnss</name>
