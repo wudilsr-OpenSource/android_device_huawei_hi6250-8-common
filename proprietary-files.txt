@@ -30,15 +30,9 @@ vendor/lib64/hw/audio.primary.hisi.so:vendor/lib64/hw/audio.primary_hisi.hi6250.
 
 # Biometrics
 vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service
-vendor/bin/hw/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0-service
 vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/etc/init/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0-service.rc
-vendor/lib/hw/facerecognize.hi6250.so
 vendor/lib/hw/fingerprint.hi6250.so
-vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
-vendor/lib64/hw/facerecognize.hi6250.so
 vendor/lib64/hw/fingerprint.hi6250.so
-vendor/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
 
 # Bluetooth
 vendor/etc/bluetooth/bt_vendor.conf
