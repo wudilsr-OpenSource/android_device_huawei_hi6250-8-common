@@ -4,11 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-## Common Path
-COMMON_PATH := device/huawei/hi6250-8-common
-
-## Inherit common vendor blobs
-$(call inherit-product, vendor/huawei/hi6250-8-common/hi6250-8-common-vendor.mk)
+# Inherit from generic products, most specific first
+$(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
@@ -340,6 +337,9 @@ PRODUCT_PACKAGES += \
     gnss_supl20service_hisi
     
 PRODUCT_COPY_FILES += \
-     $(COMMON_PATH)/system/etc/gnss/config/gnss_suplconfig_hisi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/gnss/config/gnss_suplconfig_hisi.xml \
-     $(COMMON_PATH)/system/etc/permissions/privapp-permissions-supl.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-supl.xml
+     $(LOCAL_PATH)/system/etc/gnss/config/gnss_suplconfig_hisi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/gnss/config/gnss_suplconfig_hisi.xml \
+     $(LOCAL_PATH)/system/etc/permissions/privapp-permissions-supl.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-supl.xml
+     
+# Call the proprietary setup
+$(call inherit-product, vendor/huawei/hi6250-8-common/hi6250-8-common-vendor.mk)
 
