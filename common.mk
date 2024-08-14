@@ -76,6 +76,14 @@ PRODUCT_COPY_FILES += \
 
 TARGET_EXCLUDES_AUDIOFX := true
 
+# Biometrics
+PRODUCT_PACKAGES += \
+    vendor.huawei.hardware.biometrics.fingerprint@2.1.vendor \
+    vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.vendor
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/keylayout/fingerprint.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/fingerprint.kl
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
@@ -110,11 +118,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
 
-# Fingerprint sensor
-PRODUCT_PACKAGES += \
-#    android.hardware.biometrics.fingerprint@2.1-service
-    android.hardware.biometrics.fingerprint@2.1.vendor
-
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
      android.hardware.gatekeeper@1.0-service.software
@@ -129,10 +132,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.graphics.common@1.0_types.vendor \
     libion
-
-# Input
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/keylayout/fingerprint.kl:system/usr/keylayout/fingerprint.kl
 
 # GNSS
 PRODUCT_PACKAGES += \
