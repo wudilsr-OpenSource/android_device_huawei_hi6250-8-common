@@ -296,7 +296,8 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.radio@1.0_types.vendor
+    android.hardware.radio@1.0_types.vendor \
+    libril
     
 # IMS
 PRODUCT_BOOT_JARS += \
