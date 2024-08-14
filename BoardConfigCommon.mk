@@ -60,7 +60,7 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_SECOND_OFFSET)
 
 BOARD_CUSTOM_BOOTIMG := true
-BOARD_CUSTOM_BOOTIMG_MK := hardware/hisi/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := hardware/huawei/mkbootimg.mk
 
 TARGET_KERNEL_SOURCE := kernel/huawei/hi6250-8
 TARGET_KERNEL_CONFIG := merge_hi6250_defconfig
@@ -111,7 +111,7 @@ BOARD_USES_FULL_RECOVERY_IMAGE := true
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/configs/init/fstab.hi6250
 
 # Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := hardware/hisi/releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := hardware/huawei/releasetools
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
