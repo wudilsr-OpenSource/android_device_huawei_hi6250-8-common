@@ -110,6 +110,7 @@ vendor.powerhal.disp.idle_support=false
 bastet.service.enable=true
 ro.config.hw_eccNumUseRplmn=true
 ro.config.ipv4.mtu=1400
+ro.telephony.default_network=9,9
 persist.radio.apm_sim_not_pwdn=true
 
 # Sensors
