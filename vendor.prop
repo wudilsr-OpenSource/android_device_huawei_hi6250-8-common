@@ -103,6 +103,9 @@ persist.media.lowlatency.enable=false
 # MMU
 ro.config.mmu_en=1
 
+# Power HAL
+vendor.powerhal.disp.idle_support=false
+
 # RIL
 bastet.service.enable=true
 ro.config.hw_eccNumUseRplmn=true
