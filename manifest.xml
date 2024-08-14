@@ -435,14 +435,4 @@
         </interface>
         <fqname>@1.0::ISensors/default</fqname>
     </hal>
-    <hal format="hidl">
-        <name>vendor.huawei.hardware.tp</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITouchscreen</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ITouchscreen/default</fqname>
-    </hal>
 </manifest>
