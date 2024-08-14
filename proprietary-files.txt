@@ -1226,7 +1226,6 @@ system/bin/emcomd
 -system/framework/hwEmui.jar
 -system/framework/hwTelephony-common.jar
 -system/framework/hwframework.jar
-system/lib64/libc_secshared.so
 system/lib64/libemcomutil.so
 system/lib64/libhuaweicust.so
 system/lib64/libsmartcare.so
