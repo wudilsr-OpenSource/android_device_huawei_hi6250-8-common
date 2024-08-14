@@ -748,14 +748,6 @@ on property:persist.sys.huawei.debug.on=1
 chown system audio /dev/voice_proxy_vowifi
 chmod 0660 /dev/voice_proxy_vowifi
 
-# bugreport is triggered by holding down volume down, volume up and power
-service bugreport /system/bin/dumpstate -d -p -B -z \
-    -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
-    class main
-    disabled
-    oneshot
-    keycodes 114 115 116
-
 service unrmd /system/vendor/bin/unrmd
     class late_start
     user root
