@@ -37,5 +37,3 @@ on post-fs-data
     # TEE
     mkdir /data/vendor/log/sec_storage_data 0775 system system
     mkdir /data/vendor/log/sec_storage_data/log 0755 system system
-    
-
