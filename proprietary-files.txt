@@ -95,33 +95,6 @@ odm/lib64/libarcsoft_beautyshot.so
 # Camera Bin
 vendor/bin/CameraDaemon
 
-# Camera Configs
-odm/etc/camera/dcvalidation.xml
-odm/etc/camera/facedetection/config.xml
-odm/etc/camera/ippalgoconfig.xml
-odm/etc/camera/ispenhnc/ispenhncalgoconfig.xml
-odm/etc/camera/mempoolcfg.xml
-odm/etc/camera/mmi/config.xml
-odm/etc/camera/pdafvalidation.xml
-odm/etc/camera/ppconfig.xml
-odm/etc/camera/smartae/device.config
-odm/etc/camera/smartae/hi843/SmartAE.xml
-odm/etc/camera/smartae/imx219/SmartAE.xml
-odm/etc/camera/smartae/imx386e3/SmartAE.xml
-odm/etc/camera/smartae/imx486/SmartAE.xml
-odm/etc/camera/smartae/ov12870e3/SmartAE.xml
-odm/etc/camera/smartae/ov12a10/SmartAE.xml
-odm/etc/camera/smartae/ov8856/SmartAE.xml
-odm/etc/camera/tornado/device.config
-odm/etc/camera/tornado/hi843/TornadoI.ini
-odm/etc/camera/tornado/imx219/TornadoI.ini
-odm/etc/camera/tornado/imx386e3/TornadoI.ini
-odm/etc/camera/tornado/imx486/TornadoI.ini
-odm/etc/camera/tornado/ov12870e3/TornadoI.ini
-odm/etc/camera/tornado/ov12a10/TornadoI.ini
-odm/etc/camera/tornado/ov8856/TornadoI.ini
-odm/etc/camera/videostabilization/config.xml
-
 # Carrier Configs
 odm/hw_odm/ncfg/A1_AT.ato:odm/etc/ncfg/A1_AT.ato
 odm/hw_odm/ncfg/AIRTEL_BD.ato:odm/etc/ncfg/AIRTEL_BD.ato
@@ -439,38 +412,6 @@ vendor/etc/modemConfig/balong/basic_name
 vendor/etc/modemConfig/hids_ue_msg.cfg
 vendor/etc/modemConfig/viacbp82d_log.bcfg
 vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
-
-# Device Configs
-vendor/etc/cfg_berlin_al10_hisi.ini
-vendor/etc/cfg_berlin_al20_hisi.ini
-vendor/etc/cfg_berlin_al30_hisi.ini
-vendor/etc/cfg_berlin_al40_hisi.ini
-vendor/etc/cfg_berlin_dl00_hisi.ini
-vendor/etc/cfg_berlin_l21_hisi.ini
-vendor/etc/cfg_berlin_l21l_hisi.ini
-vendor/etc/cfg_berlin_l22_hisi.ini
-vendor/etc/cfg_berlin_l23l_hisi.ini
-vendor/etc/cfg_berlin_l24_hisi.ini
-vendor/etc/cfg_berlin_tl00_hisi.ini
-vendor/etc/cfg_berlin_tl00a_hisi.ini
-vendor/etc/cfg_berlin_tl10_hisi.ini
-vendor/etc/cfg_prague_al00_hisi.ini
-vendor/etc/cfg_prague_l21_hisi.ini
-vendor/etc/cfg_prague_l22_hisi.ini
-vendor/etc/cfg_prague_l23_hisi.ini
-vendor/etc/cfg_prague_l31_LVSAW_hisi.ini
-vendor/etc/cfg_prague_l31_hisi.ini
-vendor/etc/cfg_prague_l62_hisi.ini
-vendor/etc/cfg_prague_tl00_hisi.ini
-vendor/etc/cfg_prague_tl10_hisi.ini
-vendor/etc/cfg_warsaw_al00_hisi.ini
-vendor/etc/cfg_warsaw_l03t_hisi.ini
-vendor/etc/cfg_warsaw_lx1_hisi.ini
-vendor/etc/cfg_warsaw_lx1a_hisi.ini
-vendor/etc/cfg_warsaw_lx2_hisi.ini
-vendor/etc/cfg_warsaw_lx2j_hisi.ini
-vendor/etc/cfg_warsaw_lx3_hisi.ini
-vendor/etc/cfg_warsaw_tl00_hisi.ini
 
 # Display
 vendor/lib/libhw_display_effect.so
